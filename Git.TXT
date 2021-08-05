@@ -44,7 +44,20 @@ REBASE
 git rebase main - 
 git push --force - подтверждаем
 
+
+
 Версии:
+git tag 1.0.0 - записываем версию
+git tag - смотрим версии
+git tag --list - смотрим все версии
+git push --tag - загружаем push версии
+git tag -d 1.0.1 - удаляем тэг
+git push --delete origin 1.0.1 - удаляем тэг из удаленного репозитория
+
+
+
+Создание pull-request:
+
 
 
 
